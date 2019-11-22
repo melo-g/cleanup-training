@@ -4,12 +4,14 @@ import './App.css';
 import Header from './components/Header/Header.js';
 import Content from './components/Content/Content.js';
 import Footer from './components/Footer/Footer.js';
+import Form from './components/Form/Form.js'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header/>
-      <Content/>
+      {/*<Content/>*/}
+      <Form/>
       <Footer/>
     </div>
   );
