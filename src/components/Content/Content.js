@@ -3,7 +3,7 @@ import '../../App.css';
 import ribbon from '../../images/red.png';
 import family from '../../images/family.png';
 import kitchen from '../../images/kitchen.png';
-import style from '../../images/style.png';
+import Style from '../Style/Style.js'
 
 import { Container, Row, Col } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -95,11 +95,7 @@ export default class Content extends Component {
 							<div>Twitterでシェア</div>
 						</div>
 					</div>
-
-					<img src={style} alt="style" />
-
-					<p>Copyright 暮らしStyle. All rights reserved.</p>
-
+					<Style/>
 				</div>
 				
 			</div>

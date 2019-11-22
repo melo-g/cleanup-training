@@ -12,7 +12,7 @@
 
 .content {
   display:block;
-  margin: auto;
+  margin: 15px auto;
   background-color: #EBE4D5;
   width: 1200px;
   box-sizing: border-box;
@@ -211,11 +211,11 @@
     padding: 20px 90px;
   }
 
-  .body-three > img {
+  .copyright-img {
     margin-bottom: 25px;
   }
 
-  .body-three > p {
+  .copyright {
     font-size: 15px;
     color: #999999;
     font-family: Kozuka Gothic Pr6N;
@@ -240,6 +240,7 @@
     margin: 36px 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .form-body > img {
@@ -314,3 +315,34 @@
   .answer-no:hover {
     background-color: #e3f3ff;
   }
+
+  .email {
+   margin-top: 20px;
+ }
+
+ .email > span {
+  color: red;
+}
+
+.website {
+  color: #dbdbdb;
+  background-color: #f4f4f4;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px 225px; 
+}
+
+.policy {
+  margin-top: 10px;
+}
+
+.diagnosis {
+  font-family: 'Kozuka Gothic Pr6N';
+  font-size: 24px;
+  color: #fff;
+  background-color: #6d4d42;
+  border-radius: 5px;
+  padding: 20px 150px; 
+  margin: 10px auto 30px auto; 
+}
+
