@@ -243,8 +243,74 @@
   }
 
   .form-body > img {
-    margin: -60px auto 0 auto;
+    margin: -65px auto 0 auto;
   }
 
-  
+  .form-body-content {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: #F8F6F2;
+    align-items: center;
+    margin-top: 10px;
+  }
 
+  .item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .item > p {
+    margin: 0 5px;
+  }
+
+  .item-question {
+    border-radius: 100px;
+    background-color: #6d4d42;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: "NotoSansCJKjp";
+  }
+
+  .item-number {
+    font-size: 20px;
+    color: #6d4d42;
+    font-weight: bold;
+    font-family: "NotoSansCJKjp";
+  }
+
+  .question > p {
+    font-family: "Kozuka Gothic Pr6N";
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .answer > button {
+    margin: 0 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: "Kozuka Gothic Pr6N";
+    font-size: 24px;
+  }
+
+  .answer-yes {
+    color: #e8916e;
+    border: 2px solid #e8916e;
+  }
+
+  .answer-yes:hover {
+    background-color: #ffe2d7;
+  }
+
+  .answer-no {
+    color: #7ab3e0;
+    border: 2px solid #7ab3e0;
+  }
+
+  .answer-no:hover {
+    background-color: #e3f3ff;
+  }

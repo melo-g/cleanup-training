@@ -1,9 +1,11 @@
 import React, {Component} from 'react'
 import '../../App.css'
 import border from '../../images/border.png'
+import formData from './data.js'
 
 export default class Form extends Component {
 	render () {
+	console.log("hello", formData)
 		return (
 			<div className="form">
 				
@@ -14,6 +16,25 @@ export default class Form extends Component {
 					<div class="form-body">
 						<img src={border} alt="border" />
 
+						{formData.map((data)=>
+							
+						<div className="form-body-content" key={data.id}>
+							<div className="item">
+								<p className="item-question">Q</p>
+								<p className="item-number">{data.number}.</p>
+							</div>
+
+							<div className="question">
+								<p>{data.question}</p>
+							</div>
+
+							<div className="answer">
+								<button type="button" className="answer-yes">はい</button>
+								<button type="button" className="answer-no">いいえ</button>
+							</div>
+						</div>
+
+							)}
 					</div>
 				</div>
 
