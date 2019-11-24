@@ -14,7 +14,8 @@
   display:block;
   margin: 15px auto;
   background-color: #EBE4D5;
-  width: 1200px;
+  /* width: 1200px; */
+  width: 85%;
   box-sizing: border-box;
   padding: 40px;
 }
@@ -32,10 +33,6 @@
   padding: 36px;
   margin: 36px 0;
 }
-
-/*.inner-body {
-  background-color: #fff;
-  }*/
 
   .inner-title {
     /*padding: 41px;*/
@@ -244,6 +241,7 @@
   }
 
   .form-body > img {
+    width: 35%;
     margin: -65px auto 0 auto;
   }
 
@@ -291,7 +289,8 @@
   .answer > button {
     margin: 0 10px;
     padding: 10px;
-    width: 300px;
+    /* width: 300px; */
+    width: 15em;
     border-radius: 5px;
     background-color: #fff;
     font-family: "Kozuka Gothic Pr6N";
@@ -346,3 +345,10 @@
   margin: 10px auto 30px auto; 
 }
 
+
+/*mobile view*/
+@media screen and (max-width: 575px) {
+    .content {
+        
+    }
+}
