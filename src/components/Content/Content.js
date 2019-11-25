@@ -15,9 +15,7 @@ export default class Content extends Component {
 		return (
 			<div>
 
-				<div className="title">
-					キッチン収納診断
-				</div>
+				<div className="title"></div>
 
 				<div className="content">
 					<div className="body">

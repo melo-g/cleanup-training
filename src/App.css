@@ -3,7 +3,7 @@
 
 .image-header,
 .image-footer {
-  width: 100%;
+  width: 90%;
 }
 
 .app {
@@ -26,6 +26,10 @@
   font-weight: bold;
   font-family: "Yu Gothic";
   padding: 45px 0;
+}
+
+.title::after {
+  content: "キッチン収納診断";
 }
 
 .body, .body-two {
@@ -282,7 +286,7 @@
 
   .question > p {
     font-family: "Kozuka Gothic Pr6N";
-    font-size: 18px;
+    font-size: 7px;
     margin-top: 20px;
   }
 
@@ -351,7 +355,12 @@
 }
 
 /*mobile view*/
-@media (max-width: 768px){
+@media (max-width: 767px){
+  /* form mobile */
+  .form-desc {
+    font-size: 10px;
+  }
+
   .diagnosis {
       font-size: 10px;
       padding: 15px 100px;
@@ -359,17 +368,26 @@
 
   .website {
     font-size: 10px;
-    padding: 15px 100px;
+    padding: 15px 50px;
     margin-top: 15px;
   }
 
   .question > p {
-    font-size: 12px;
+    font-size: 6px;
+  }
+
+  .form-body-content {
+    margin-top: 30px;
   }
 
   .answer > button {
-    font-size: 12px;
+    font-size: 6px;
     margin: 1px;
+  }
+
+  .email,
+  .policy {
+    font-size: 8px;
   }
 
   /* content mobile */
@@ -378,7 +396,7 @@
   }
 
   .text-ribbon {
-    font-size: 0.94em;
+    font-size: 11px;
   }
   
   .content1 {
@@ -400,24 +418,24 @@
 
   .paragraph > div > p,
   .body-two-title {
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .content1-title {
-    font-size: 15px;
+    font-size: 11px;
   }
 
   .paragraph > p,
   .content1-paragraph {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .brown-button {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .three-title {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
   }
 
@@ -432,11 +450,14 @@
 
   .social-media > div {
     margin: 5px 0;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
   }
 }
 
 /* tablet view */
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px){
   .content1 {
     display: flex;
     flex-direction: column;
@@ -448,5 +469,11 @@
 
   .one {
     order: 2;
+  }
+
+  .social-media > div {
+    width: 260px;
+    font-size: 16px;
+    padding: 20px 40px;
   }
 }
