@@ -1,5 +1,5 @@
 
-/* header */
+/* header & footer images */
 
 .image-header,
 .image-footer {
@@ -78,7 +78,7 @@
   }
 
   .family-tag img {
-    width: 500px;
+    width: 100%;
   }
 
   .text-family {
@@ -89,18 +89,18 @@
   }
 
   .paragraph {
-    width: 500px;
+    width: 100%;
     text-align: left;
   }
 
-  .paragraph div p {
+  .paragraph > div > p {
     color: #e9767e;
     font-size: 30px;
     line-height: 46px;
     margin: 0;
   }
 
-  .paragraph p {
+  .paragraph > p {
     color: black;
     font-size: 15px;
     line-height: 30px;
@@ -141,8 +141,8 @@
     margin-top: 15px;
   }
 
-  .one {
-    width: 480px;
+  .content1 > div {
+    width: 100%;
   }
 
   .content1-paragraph {
@@ -162,7 +162,7 @@
     background-color: #fff6e3;
     border: solid #845e51 2px;
     margin: 50px;
-    width: 500px;
+    width: 45%;
     padding: 20px;
   }
 
@@ -345,12 +345,108 @@
   margin: 10px auto 30px auto; 
 }
 
+.kitchen {
+  width: 100%;
+  margin-bottom: 38px;
+}
 
 /*mobile view*/
-@media screen and (max-width: 575px) {
-    .diagnosis {
-        font-size: 10px;
-        padding: 15px 100px;
-        background: red;
-    }
+@media (max-width: 768px){
+  .diagnosis {
+      font-size: 10px;
+      padding: 15px 100px;
+  }
+
+  .website {
+    font-size: 10px;
+    padding: 15px 100px;
+    margin-top: 15px;
+  }
+
+  .question > p {
+    font-size: 12px;
+  }
+
+  .answer > button {
+    font-size: 12px;
+    margin: 1px;
+  }
+
+  /* content mobile */
+  .ribbon-tag > img {
+    width: 100%;;
+  }
+
+  .text-ribbon {
+    font-size: 0.94em;
+  }
+  
+  .content1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two {
+    order: 1;
+  }
+
+  .one {
+    order: 2;
+  }
+  
+  .family-tag img {
+    max-width: 250px;
+  }
+
+  .paragraph > div > p,
+  .body-two-title {
+    font-size: 20px;
+  }
+
+  .content1-title {
+    font-size: 15px;
+  }
+
+  .paragraph > p,
+  .content1-paragraph {
+    font-size: 10px;
+  }
+
+  .brown-button {
+    font-size: 10px;
+  }
+
+  .three-title {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .media-title {
+    font-size: 20px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media > div {
+    margin: 5px 0;
+  }
+}
+
+/* tablet view */
+@media (min-width: 769px) and (max-width: 1024px){
+  .content1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two {
+    order: 1;
+  }
+
+  .one {
+    order: 2;
+  }
 }

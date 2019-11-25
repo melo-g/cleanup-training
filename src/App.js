@@ -9,10 +9,10 @@ import Form from './components/Form/Form.js'
 function App() {
   return (
     <div className="app">
-      <Header/>
-      {/*<Content/>*/}
-      <Form/>
-      <Footer/>
+      <Header />
+      <Content />
+      {/* <Form/> */}
+      <Footer />
     </div>
   );
 }
