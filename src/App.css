@@ -474,6 +474,15 @@
   .social-media > div {
     width: 260px;
     font-size: 16px;
-    padding: 20px 40px;
+    padding: 30px 40px;
+  }
+
+  .form-body-content {
+    height: 250px;
+  }
+
+  .answer > button {
+    font-size: 20px;
+    margin: 3px;
   }
 }
